@@ -16,11 +16,12 @@
 		"name": "Druzhyna",
 		"unitType": "Mounted",
 		"movement": 3,
-		"strength": 22,
+		"strength": 26,
 		"cost": 140,
 		"requiredTech": "Chivalry",
 		"uniqueTo": "Kievan Rus'",
 		"replaces": "Knight",
+		"requiredResource":"Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Great General provides double combat bonus"],
 		"attackSound": "metalhit"
 	},
