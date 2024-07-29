@@ -1,0 +1,11 @@
+Gakuciv.png
+	size: 512, 256
+	repeat: none
+BuildingIcons/Church of the Heavens
+	bounds: 204, 4, 200, 200
+BuildingIcons/Conference Center
+	bounds: 2, 4, 200, 200
+TechIcons/Diplomacy
+	bounds: 406, 104, 100, 100
+NationIcons/Kievan Rus'
+	bounds: 406, 2, 100, 100

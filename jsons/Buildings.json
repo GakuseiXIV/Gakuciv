@@ -4,9 +4,18 @@
 		"name": "Conference Center",
 		"isNationalWonder": true,
 		"culture": 3,
-		"cost": 1,
+		"cost": 125,
 		"requiredTech": "Diplomacy",
-		"uniques": ["Unbuildable", "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns."]
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns."]
+	},
+	{
+		"name": "Church of the Heavens",
+		"isNationalWonder": true,
+		"faith": 5,
+		"cost": 1500,
+		"requiredTech": "Theology",
+		"uniques": ["Hidden when [Religious] Victory is disabled", "Only available <after founding a religion>", "Only available <after adopting [Piety Complete]>",
+		"Free [Great Prophet] appears", "[+5 Faith] for each adjacent [Holy site]", "Can only be built <in [Holy] cities>"]
 	},
 
 	{
@@ -720,7 +729,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["[+1] Production for each adjacent [Road]"],
+		"uniques": ["[+1 Production] for each adjacent [Road]"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},

@@ -7,6 +7,37 @@
 //		"innerColor": [255,255,255]
 	},
 
+	// GAKUCIV NATIONS
+	{
+		"name": "Kievan Rus'",
+		"leaderName": "Vladimir the Great",
+		"adjective": ["Kievan"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType": "Religious",
+		"personality": "Napoleon", //TEMP
+		
+		"startIntroPart1": "Vladimir the Great, the first ruler of the Kievan Rus'. Your nation was the first East Slavic state, a grand collection of peoples. You have brought Christianity into the minds and hearts of your people, brought trade from across Europe to the Kievan markets and laid the foundation for the great Ukrainian nation of the modern day. You were a great ruler in your policies and a great Christian through your faith- the qualities of a fine Saint. Saint Vladimir, Vladimir the Great, Grand Prince of Kiev, you have crafted a fine nation that withstands even the greatest tyrants.",
+		"startIntroPart2": "The world has shown its violence against your people., but your people have shown the world their resilience, their determination, their will to fight for what you have helped to create. You have shown your power to sanctify the world. Can you do it once more?",
+
+		"declaringWar": "We have been given His signs- we must break our peace and put the fear of God in you!",
+		"attacked": "How dare you spit at the followers of the Lord? You will pay!",
+		"defeated": "I pray for God to save Kiev now- for the heretics have claimed me!",
+		"introduction": "Привіт. I am Vladimir the Great, Grand Prince of Kiev and Saint Vladimir! Will you hear the word of God?",
+
+		"neutralHello": "Привіт.",
+		"hateHello": "There's the heretic.",
+
+		"tradeRequest": "I ask of you to trade, as the man who brought the finest wines and spices to Kiev.",
+		
+		"outerColor": [0,87,183],
+		"innerColor": [255,215,0],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Gold and God",
+		"uniques": ["[50]% Natural religion spread [in your cities]", "[+1 Gold, +1 Faith] from each Trade Route", "May choose [1] additional [Follower] beliefs when [founding] a religion"],
+		"cities": ["Kiev", "Volodymyr", "Chernigov", "Pereyaslavl", "Smolensk", "Lyubech", "Ryazan", "Kolomna", "Moscow", "Vladimir", "Novgorod"],
+		"spyNames": ["Pervusha", "Vtorusha", "Tretiusha", "Borislavu", "Voislavu", "Svetopulku"]
+	}
+
 	{
 		//nations
 		"name": "Babylon",
