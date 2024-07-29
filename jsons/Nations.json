@@ -36,7 +36,7 @@
 		"uniques": ["[50]% Natural religion spread [in your cities]", "[+1 Gold, +1 Faith] from each Trade Route", "May choose [1] additional [Follower] beliefs when [founding] a religion"],
 		"cities": ["Kiev", "Volodymyr", "Chernigov", "Pereyaslavl", "Smolensk", "Lyubech", "Ryazan", "Kolomna", "Moscow", "Vladimir", "Novgorod"],
 		"spyNames": ["Pervusha", "Vtorusha", "Tretiusha", "Borislavu", "Voislavu", "Svetopulku"]
-	}
+	},
 
 	{
 		//nations

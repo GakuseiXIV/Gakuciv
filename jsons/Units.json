@@ -1,4 +1,38 @@
 [
+	{
+		"name": "Rogatina",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 12,
+		"cost": 50,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Druzhyna",
+		"uniqueTo": "Kievan Rus'",
+		"replaces": "Swordsman",
+		"uniques": ["Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Druzhyna",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 22,
+		"cost": 140,
+		"requiredTech": "Chivalry",
+		"uniqueTo": "Kievan Rus'",
+		"replaces": "Knight",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Great General provides double combat bonus"],
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": [
+			"Triggers a [Great Concert] event <by consuming this unit>",
+			"Great Person - [Culture]", "Unbuildable", "Uncapturable"
+		]
+	},
 
 	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
 
@@ -1603,14 +1637,6 @@
             "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 		"movement": 2
-	},
-	{
-		"name": "Great Musician",
-		"unitType": "Civilian",
-		"uniques": [
-			"Triggers a [Great Concert] event <by consuming this unit>",
-			"Great Person - [Culture]", "Unbuildable", "Uncapturable"
-		]
 	},
 	{
 		"name": "Great Scientist",
