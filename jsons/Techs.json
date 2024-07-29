@@ -188,6 +188,13 @@
 				"quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas"
 			},
 			{
+				"name": "Diplomacy",
+				"row": 3,
+				"prerequisites": ["Philosophy", "Drama and Poetry"],
+				"uniques": ["Provides a [Conference Center] in you first [1] cities for free"],
+				"quote": "'Diplomacy stands as the largest trade in the world.'"
+			},
+			{
 				"name": "Civil Service",
 				"row": 5,
 				"prerequisites": ["Currency","Horseback Riding","Drama and Poetry"],
@@ -226,14 +233,14 @@
 			{
 				"name": "Education",
 				"row": 3,
-				"prerequisites": ["Theology","Civil Service"],
+				"prerequisites": ["Theology","Civil Service","Diplomacy"],
 				"uniques": ["Enables conversion of city production to [Science]","Enables Research agreements"],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
 				"name": "Chivalry",
 				"row": 6,
-				"prerequisites": ["Civil Service","Guilds"],
+				"prerequisites": ["Civil Service","Guilds","Diplomacy"],
                 "uniques": ["Enables Defensive Pacts"],
                 "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory"
 			},
@@ -387,7 +394,7 @@
 		"era": "Industrial era",
 		"techCost": 2350,
 		"buildingCost": 360,
-		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Biology",
@@ -426,7 +433,7 @@
 			{
 				"name": "Refrigeration",
 				"row": 2,
-				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
+				"prerequisites": ["Biology", "Electricity"], 
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{

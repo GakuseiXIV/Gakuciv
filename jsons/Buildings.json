@@ -1,7 +1,14 @@
 [
-	// Ancient Era
 
-	// Always available
+	{
+		"name": "Conference Center",
+		"isNationalWonder": true,
+		"culture": 3,
+		"cost": 1,
+		"requiredTech": "Diplomacy",
+		"uniques": ["Unbuildable", "Can spend Gold to annex or puppet a City-State that has been your ally for [10] turns."]
+	},
+
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -30,9 +37,9 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+		"uniques": ["Destroyed when the city is captured"]
 	},
-	// Column 1
+
 	{
 		"name": "Granary",
 		"food": 2,
@@ -72,7 +79,7 @@
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
-	// Column 2
+
 	{
 		"name": "Stone Works",
 		"happiness": 1,
@@ -206,15 +213,11 @@
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>", "Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
-		// "Requires [Honor]" in BNW
 	},
 
-	// Classical Era
-
-	// Column 3
 	{
 		"name": "Lighthouse",
 		"cost": 75,
@@ -288,7 +291,7 @@
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
-	// Column 4
+
 	{
 		"name": "Temple",
 		"faith": 2,
@@ -433,9 +436,6 @@
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
-	// Medieval Era
-
-	// Column 5
 	{
 		"name": "Garden",
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
@@ -533,7 +533,6 @@
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
-	// Column 6
 	{
 		"name": "Harbor",
 		"cost": 120,
@@ -643,10 +642,6 @@
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
-
-	// Renaissance Era
-
-	// Column 7
 	{
 		"name": "Observatory",
 		"maintenance": 0,
@@ -717,19 +712,18 @@
         "uniques": ["Hidden when espionage is disabled", "[-25]% enemy spy effectiveness [in this city]"],
         "requiredTech": "Banking"
     },
-	// will be introduced in BNW expansion pack
-//	{
-//		"name": "Hanse",
-//		"replaces": "Bank",
-//		"uniqueTo": "Germany",
-//		"gold": 2,
-//		"specialistSlots": {"Merchant": 1},
-//		"hurryCostModifier": 15,
-//		"percentStatBonus": {"gold": 25},
-//		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
-//		"requiredBuilding": "Market",
-//		"requiredTech": "Banking"
-//	},
+	{
+		"name": "Hanse",
+		"replaces": "Bank",
+		"uniqueTo": "Germany",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
 	{
 		"name": "Forbidden Palace",
 		"culture": 1,
@@ -766,7 +760,7 @@
 		"requiredTech": "Gunpowder",
 		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
 	},
-	// Column 8
+
 	{
 		"name": "Seaport",
 		"hurryCostModifier": 25,
@@ -845,9 +839,6 @@
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
 
-	// Industrial Era
-
-	// Column 9
 	{
 		"name": "Museum",
 		"culture": 5,
@@ -916,7 +907,7 @@
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
-	// Column 10
+
 	{
 		"name": "Hospital",
 		"food": 5,
@@ -952,9 +943,6 @@
         "requiredTech": "Electricity"
     },
 
-	// Modern Era
-
-	// Column 11
 	{
 		"name": "Stadium",
 		"happiness": 4,
@@ -989,7 +977,7 @@
         "uniques": ["Hidden when espionage is disabled",
             "New spies start with [1] level(s)",
             "Promotes all spies [1] time(s)",
-            "Gain an extra spy", // Order is significant here
+            "Gain an extra spy",
 			"[-15]% enemy spy effectiveness [in this city]",
 			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
@@ -1025,7 +1013,7 @@
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
-	// Column 12
+
 	{
 		"name": "Research Lab",
 		"science": 4,
@@ -1045,9 +1033,6 @@
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
 
-	// Atomic Era
-
-	// Column 13
 	{
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
@@ -1071,7 +1056,7 @@
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
-	// Column 14
+
 	{
 		"name": "Solar Plant",
 		"production": 5,
@@ -1118,13 +1103,10 @@
         "name": "Great Firewall",
         "isWonder": true,
         "uniques": ["Hidden when espionage is disabled", "[-99]% enemy spy effectiveness [in this city]",
-            "[-25]% enemy spy effectiveness [in all cities]",],
+            "[-25]% enemy spy effectiveness [in all cities]"],
         "requiredTech": "Computers"
     },
 
-	// Information Era
-
-	// Column 15
 	{
 		"name": "CN Tower",
 		"isWonder": true,
@@ -1160,7 +1142,7 @@
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
 	},
-	// Column 16
+
 	{
 		"name": "United Nations",
 		"isWonder": true,
@@ -1171,7 +1153,7 @@
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 
-	// All Eras
+
 
 	{
 		"name": "Utopia Project",
@@ -1181,7 +1163,7 @@
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 	},
 
-	// Religious buildings
+
 
 	{
 		"name": "Cathedral",
