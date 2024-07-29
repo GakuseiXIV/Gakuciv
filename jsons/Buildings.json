@@ -720,7 +720,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+		"uniques": ["[+1] Production for each adjacent [Road]"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},

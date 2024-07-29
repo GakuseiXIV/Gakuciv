@@ -191,7 +191,7 @@
 				"name": "Diplomacy",
 				"row": 3,
 				"prerequisites": ["Philosophy", "Drama and Poetry"],
-				"uniques": ["Provides a [Conference Center] in you first [1] cities for free"],
+				"uniques": ["Provides a [Conference Center] in your first [1] cities for free"],
 				"quote": "'Diplomacy stands as the largest trade in the world.'"
 			},
 			{
