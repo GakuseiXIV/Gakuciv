@@ -41,6 +41,43 @@
           {"text": "Alexander the Great, born in Macedon, was one of the most skilled generals, even more by his young age, and in only 17 years he conquered all the Greek known world."}
       ]
   },*/
+
+  {
+    "name": "Vladimir the Great",
+
+    "culture": 6,
+    "faith": 8,
+    "food": 4,
+    "gold": 8,
+    "happiness": 6,
+    "production": 3,
+    "science": 4,
+
+    "military": 5,
+    "aggressive": 3,
+    "declareWar": 3,
+    "commerce": 9,
+    "diplomacy": 8,
+    "loyal": 8,
+    "expansion": 3,
+
+    "priorities": {
+        "Tradition": 3,
+        "Liberty": 3,
+        "Honor": 2,
+        "Commerce": 7,
+        "Patronage": 8,
+        "Piety": 10,
+        "Rationalism": 5,
+        "Freedom": 6,
+        "Autocracy": 4,
+        "Order": 3
+    },
+    "civilopediaText": [
+        {"text": "Vladimir the Great is known as an important figure in the history of European Christianity and was an important figure in European trade. He converted the Kievan Rus' to Christianity and luxuries from all over to Kiev."}
+    ]
+},
+
   {
     "name": "Ahmad al-Mansur",
     "production": 6,
