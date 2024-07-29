@@ -1,7 +1,6 @@
 [
     {
         "name": "Great Concert",
-        "presentation": "Floating",
         "choices": [
             {
                 "text": "Inspire the people (Increase Great Person generation by 10%)",
