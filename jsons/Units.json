@@ -1605,6 +1605,14 @@
 		"movement": 2
 	},
 	{
+		"name": "Great Musician",
+		"unitType": "Civilian",
+		"uniques": [
+			"Triggers a [Great Concert] event <by consuming this unit>",
+			"Great Person - [Culture]", "Unbuildable", "Uncapturable"
+		]
+	},
+	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [

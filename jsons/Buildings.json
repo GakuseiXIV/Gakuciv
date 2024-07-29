@@ -11,11 +11,18 @@
 	{
 		"name": "Church of the Heavens",
 		"isNationalWonder": true,
-		"faith": 5,
+		"faith": 8,
 		"cost": 1500,
 		"requiredTech": "Theology",
 		"uniques": ["Hidden when [Religious] Victory is disabled", "Only available <after founding a religion>", "Only available <after adopting [Piety Complete]>",
 		"Free [Great Prophet] appears", "Can only be built <in [Holy] cities>"]
+	},
+	{
+		"name": "Great Stadium",
+		"isNationalWonder": true,
+		"culture": 8,
+		"cost": 0,
+		"uniques": ["Unbuildable"]
 	},
 
 	{

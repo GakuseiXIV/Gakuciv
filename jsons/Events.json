@@ -1,5 +1,24 @@
 [
     {
+        "name": "Great Concert",
+        "presentation": "Floating",
+        "choices": [
+            {
+                "text": "Inspire the people (Increase Great Person generation by 10%)",
+                "triggeredUniques": ["[+10]% Great Person generation [in your cities]"]
+            },
+            {
+                "text": "Shake up society (Gain +25 Culture and enter a Golden Age)",
+                "triggeredUniques": ["Gain [25] [Culture]", "Empire enters golden age"]
+            },
+            {
+                "text": "Enter the history books (Create the national wonder Great Stadium)",
+                "triggeredUniques": ["Gain a free [Great Stadium] [in capital]"],
+                "conditions": ["if [Great Stadium] is not constructed"]
+            }
+        ]
+    },
+    {
         "name":"Tutorial Task: [Move unit]",
         "presentation":"Floating",
         "civilopediaText":[
