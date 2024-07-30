@@ -24,6 +24,16 @@
 		"cost": 0,
 		"uniques": ["Unbuildable"]
 	},
+	{
+		"name": "School of Music",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"culture": 33},
+		"specialistSlots": {"Musician": 2},
+		"requiredBuilding": "University",
+		"uniques": ["[+2 Culture] from [Coast] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
 
 	{
 		"name": "Palace",

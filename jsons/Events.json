@@ -11,7 +11,7 @@
                 "triggeredUniques": ["Gain [25] [Culture]", "Empire enters golden age"]
             },
             {
-                "text": "Enter the history books (Create the national wonder Great Stadium)",
+                "text": "Enter the history books (Create the national wonder Great Stadium) (Do not use if you already have a Great Stadium)",
                 "triggeredUniques": ["Gain a free [Great Stadium] [in capital]"],
                 "conditions": ["if [Great Stadium] is not constructed"]
             }
@@ -36,7 +36,7 @@
         "civilopediaText":[
 			{"text":"Found a city!", "centered":true},
             {"extraImage":"Tutorials/Found city", "imageSize":140},
-            {"text":"Select the Settler → Click on 'Found city'."},
+            {"text":"Select the Settler → Click on 'Found city'."}
 		],
         "uniques": [
             "Only available <if tutorials are enabled> <when number of [Settler] is greater than [0]>",
