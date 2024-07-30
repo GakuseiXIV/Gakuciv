@@ -534,7 +534,7 @@
 			{
 				"name": "Atomic Theory",
 				"row": 4,
-				"prerequisites": ["Plastics","Electronics","Advanced Physics"],
+				"prerequisites": ["Plastics","Electronics"],
 				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
 			},
 			{
