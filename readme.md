@@ -13,4 +13,4 @@ A new type of Great Person that can trigger a Great Concert event and build a Gr
 
 ## To Do
 This section is mostly for the dev
-##### Add new stuff to Recording and Advanced Physics (tech column 11)
+* Add new stuff to Recording and Advanced Physics (tech column 11)
