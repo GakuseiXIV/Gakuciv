@@ -34,8 +34,8 @@
     },
     {
         "name": "Religious",
-        "victoryScreenHeader": "Create and a religion and \nspread it across the world to win!",
-        "milestones": ["Become the world religion", "Build [Church of the Heavens]"],
+        "victoryScreenHeader": "Create a religion and \nspread it across the world to win!",
+        "milestones": ["Build [Church of the Heavens]", "Become the world religion"],
         "victoryString": "You have become the greatest prophet the world has ever known - and ever will know! All eyes look at you as the peak of human purity and morality, as you have brought the greatest religion to the entire world!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },

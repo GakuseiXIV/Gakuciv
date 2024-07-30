@@ -3,17 +3,20 @@
         "name": "Great Concert",
         "choices": [
             {
-                "text": "Inspire the people (Increase Great Person generation by 10%)",
+                "text": "Inspire the people",
                 "triggeredUniques": ["[+10]% Great Person generation [in your cities]"]
             },
             {
-                "text": "Shake up society (Gain +25 Culture and enter a Golden Age)",
-                "triggeredUniques": ["Gain [25] [Culture]", "Empire enters golden age"]
+                "text": "Shake up society",
+                "triggeredUniques": ["Free Social Policy", "Empire enters a [15]-turn golden age"]
             },
             {
-                "text": "Enter the history books (Create the national wonder Great Stadium) (Do not use if you already have a Great Stadium)",
-                "triggeredUniques": ["Gain a free [Great Stadium] [in capital]"],
-                "conditions": ["if [Great Stadium] is not constructed"]
+                "text": "Enter the history books",
+                "triggeredUniques": ["Gain a free [Great Stadium] [in this city]"]
+            },
+            {
+                "text": "Bring in tourists",
+                "triggeredUniques": ["Instantly provides [5] [Tourists]"]
             }
         ]
     },

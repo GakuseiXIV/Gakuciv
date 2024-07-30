@@ -1,11 +1,17 @@
 Gakuciv.png
-	size: 512, 256
+	size: 1024, 256
 	repeat: none
 BuildingIcons/Church of the Heavens
-	bounds: 204, 4, 200, 200
+	bounds: 204, 2, 200, 200
 BuildingIcons/Conference Center
-	bounds: 2, 4, 200, 200
-TechIcons/Diplomacy
-	bounds: 406, 104, 100, 100
+	bounds: 2, 2, 200, 200
 NationIcons/Kievan Rus'
-	bounds: 406, 2, 100, 100
+	bounds: 712, 102, 100, 100
+TechIcons/Diplomacy
+	bounds: 610, 102, 100, 100
+UnitIcons/Druzhyna
+	bounds: 508, 102, 100, 100
+UnitIcons/Great Musician
+	bounds: 814, 102, 100, 100
+UnitIcons/Rogatina
+	bounds: 406, 102, 100, 100
