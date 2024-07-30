@@ -32,7 +32,7 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"culture": 33},
 		"specialistSlots": {"Musician": 3},
-		"greatPersonPoints": {"Great Musicican": 1},
+		"greatPersonPoints": {"Great Musician": 1},
 		"requiredBuilding": "University",
 		"uniques": ["[+2 Culture] from [Coast] tiles [in this city]"],
 		"requiredTech": "Education"
@@ -43,7 +43,7 @@
 		"culture": 1,
 		"percentStatBonus": {"culture": 10},
 		"specialistSlots": {"Musician": 2},
-		"greatPersonPoints": {"Great Musicican": 3},
+		"greatPersonPoints": {"Great Musician": 3},
 		"uniques": ["[+1 Culture] from every [Broadcast Tower]"],
 		"requiredTech": "Recording"
 	},

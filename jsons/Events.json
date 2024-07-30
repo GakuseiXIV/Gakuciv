@@ -8,7 +8,7 @@
             },
             {
                 "text": "Shake up society",
-                "triggeredUniques": ["Free Social Policy", "Empire enters a [15]-turn golden age"]
+                "triggeredUniques": ["Free Social Policy", "Empire enters a [15]-turn Golden Age"]
             },
             {
                 "text": "Enter the history books",
@@ -16,7 +16,7 @@
             },
             {
                 "text": "Bring in tourists",
-                "triggeredUniques": ["Instantly provides [5] [Tourists]"]
+                "triggeredUniques": ["Provides [5] [Tourists]"]
             }
         ]
     },
