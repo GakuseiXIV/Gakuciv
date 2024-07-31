@@ -1,8 +1,10 @@
-# Gakuciv
-Gakuciv is a mod for Unciv that acts as a vanilla+ type mod. More nations, more techs, more buildings, and more depth.
+<p align="center"/><img src="icon.png" width="250"/>
+
+#
+<p align="center"> Gakuciv is a mod for Unciv that acts as a vanilla+ type mod. More nations, more techs, more buildings, and more depth.
 
 ## Features
-### ![Kievan Rus'](<img src="https://github.com/user-attachments/assets/8d115d0c-9f10-45c5-b485-b851bfcdc940" width="300" />) Kievan Rus'
+### Kievan Rus' <img src="Images\Images.NationIcons\NationIcons\Kievan Rus'.png" width="20" />
 Kievan Rus is a full new Civ, with Vladimir the Great as their leader. Their focus is Religion and Gold, but while their military is formed mostly of untrained militia, their numbers are large and their faith is something to revere.
 ### Religious Victory
 Adds a Religious Victory condition, where you must spread your religion all over the world and build the Church of the Heavens to win.
